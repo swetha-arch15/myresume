@@ -1,22 +1,47 @@
-h1 {
+h1 
+{
 font-size:500%;
 font-family:arial;
-background-color:white;
+background-color:black;
+color:white;
 }
 body
  {
+ background-image:url("back1.jpg");
  background-size: 100% 100%
  }
+ #me
+ {
+ background-color:white
+ padding:0px 250px 0px 0px
+ }
+img {
+    border:10px;
+	border-color:black;
+	border-radius:10px;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    z-index: -1;
+}
 #page
 {
-padding:0px 250px 0px 0px;
-font-color:grey
-}
+    position: absolute;
+    left: 250px;
+    top: 230px;
+    }
 #details
+{position: relative;
+    left: 50px;
+    top: 100px;
+}
+h3
 {
-padding:0px 250px 0px 250px;
+position: absolute;
+    left: 400px;
+    top: 230px;
 }
 table
 {
-border: 5px solid #0f0000;border-radius: 25px;
+border-radius:25px;
 }
