@@ -1,0 +1,22 @@
+h1 {
+font-size:500%;
+font-family:arial;
+background-color:white;
+}
+body
+ {
+ background-size: 100% 100%
+ }
+#page
+{
+padding:0px 250px 0px 0px;
+font-color:grey
+}
+#details
+{
+padding:0px 250px 0px 250px;
+}
+table
+{
+border: 5px solid #0f0000;border-radius: 25px;
+}
